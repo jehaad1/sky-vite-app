@@ -14,13 +14,13 @@ SkyCreateMemories({
 });
 
 // Building the app interface.
-// For the 20th line we used style="transform: rotate(((Rotate))deg)" to rotate Vite logo when the memory "Rotate" changes
+// For the 20th line we used style="rotate: ((Rotate))deg" to rotate Vite logo when the memory "Rotate" changes
 // and we can't change it with the style object in javascript because Sky.js reads just HTML files.
 App.innerHTML += `
 <div id="Container">
 <h1 id="Heading">Sky.js & Vite App</h1>
 <h4 id="GameStart">To start the game click on the page.</h4>
-<img SkyElement id="ViteLogo" src="${ViteLogo}" style="transform: rotate(((Rotate))deg)" />
+<img SkyElement id="ViteLogo" src="${ViteLogo}" style="rotate: ((Rotate))deg" />
 <h3 id="Docs">Learn how to use Vite by <a href="https://vitejs.dev" target="_blank">clicking here</a>
 <br>Learn how to use Sky.js by <a href="https://sky-js.pages.dev" target="_blank">clicking here</a></h3>
 <div>
